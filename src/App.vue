@@ -7,6 +7,20 @@
   </div>
 </template>
 
+<script>
+  import axios from 'axios';
+  
+  export default {
+      created() {
+          setTimeout(() => {
+              axios.get("https://jsonplaceholder.typicode.com/todos/1")
+                  .then(e => console.log(e))
+                  .catch(e => console.log(e));
+          }, 5000);
+      }
+  }
+</script>
+
 <style lang="scss">
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
