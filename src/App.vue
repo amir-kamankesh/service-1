@@ -1,10 +1,9 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <h3>in the parent</h3>
+      <iframe style="width: 500px;height: 700px;" src="https://elastic-ardinghelli-87a563.netlify.com/"></iframe>
     </div>
-    <router-view/>
   </div>
 </template>
 
