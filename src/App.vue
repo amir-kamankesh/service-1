@@ -2,7 +2,7 @@
   <div id="app">
     <div id="nav">
       <h3>in the parent</h3>
-      <iframe style="width: 500px;height: 700px;" src="https://elastic-ardinghelli-87a563.netlify.com/"></iframe>
+      <iframe style="width: 500px;height: 700px;" src="https://awesome-jepsen-38b7f8.netlify.com"></iframe>
     </div>
   </div>
 </template>
