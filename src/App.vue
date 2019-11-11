@@ -8,14 +8,13 @@
 </template>
 
 <script>
-  import axios from 'axios';
+  
+  import api from '@/apis';
   
   export default {
-      created() {
+      mounted() {
           setTimeout(() => {
-              axios.get("https://jsonplaceholder.typicode.com/todos/1")
-                  .then(e => console.log(e))
-                  .catch(e => console.log(e));
+              api.fetchSingleMovie();
           }, 5000);
       }
   }
